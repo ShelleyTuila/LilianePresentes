@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b9a88534-cafe-49a9-8884-36e1681e1bf2">
+  <Table name="ESTADO" />
+  <Table name="CIDADE" />
+</Dependencies>

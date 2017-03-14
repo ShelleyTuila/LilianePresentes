@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///C:/Program Files (x86)/Artech/GeneXus/GeneXusXEv3/</Path>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>USUARIO</ObjName>
+      <ObjDesc>USUARIO</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.usuario</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>PARAMETRIZACAO</ObjName>
+      <ObjDesc>PARAMETRIZACAO</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.parametrizacao</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>FORNECEDOR</ObjName>
+      <ObjDesc>FORNECEDOR</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.fornecedor</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>ESTADO</ObjName>
+      <ObjDesc>ESTADO</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.estado</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>CIDADE</ObjName>
+      <ObjDesc>CIDADE</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.cidade</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>PRODUTO</ObjName>
+      <ObjDesc>PRODUTO</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.produto</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>TIPO_PRODUTO</ObjName>
+      <ObjDesc>TIPO_PRODUTO</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.tipo_produto</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>ENTRADA</ObjName>
+      <ObjDesc>ENTRADA</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.entrada</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>CLIENTE</ObjName>
+      <ObjDesc>CLIENTE</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.cliente</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>FORMA_PAGAMENTO</ObjName>
+      <ObjDesc>FORMA_PAGAMENTO</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.forma_pagamento</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>CORES</ObjName>
+      <ObjDesc>CORES</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.cores</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>ESTOQUE</ObjName>
+      <ObjDesc>ESTOQUE</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.estoque</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_Inicio</ObjName>
+      <ObjDesc>Início</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_inicio</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Home</ObjName>
+      <ObjDesc>Home</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.home</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ParametrizacaoSenha</ObjName>
+      <ObjDesc>Parametrização de Senha</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_parametrizacaosenha</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_Login</ObjName>
+      <ObjDesc>WW_Login</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_login</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ParametrizacaoCEP</ObjName>
+      <ObjDesc>Parametrização de CEP</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_parametrizacaocep</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ConsultaProduto</ObjName>
+      <ObjDesc>Consulta de produto</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_consultaproduto</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ConsultaFornecedor</ObjName>
+      <ObjDesc>Consulta de fornecedor</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_consultafornecedor</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ConsultaUsuario</ObjName>
+      <ObjDesc>Consulta de usuário</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_consultausuario</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ConsultaTipoProduto</ObjName>
+      <ObjDesc>Consulta de tipo de produto</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_consultatipoproduto</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ConsultaCliente</ObjName>
+      <ObjDesc>Consulta de cliente</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_consultacliente</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ConsultaFormaPagamento</ObjName>
+      <ObjDesc>Consulta de forma de pagamento</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_consultaformapagamento</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_Agenda</ObjName>
+      <ObjDesc>Agenda de contatos</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_agenda</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ConsultaCor</ObjName>
+      <ObjDesc>Consulta de cores</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_consultacor</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WW_ConsultaEntradaProdutos</ObjName>
+      <ObjDesc>WW_Consulta Entrada Produtos</ObjDesc>
+      <ObjLink>http://localhost:8080/LilianePresentesJava/servlet/com.lilianepresentes.ww_consultaentradaprodutos</ObjLink>
+   </Object>
+</Objects>

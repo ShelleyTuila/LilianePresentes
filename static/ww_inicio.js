@@ -1,0 +1,3 @@
+gx.evt.autoSkip=!1;
+gx.define("ww_inicio",!1,function(){this.ServerClass="ww_inicio";this.PackageName="com.lilianepresentes";this.setObjectType("web");this.skipOnEnter=this.hasEnterEvent=false;this.ajaxSecurityToken=this.supportAjaxEvents=this.fullAjax=this.autoRefresh=true;this.SetStandaloneVars=function(){};this.e12072_client=function(){this.executeServerEvent("ENTER",true)};this.e13072_client=function(){this.executeServerEvent("CANCEL",true)};this.GXValidFnc=[];this.GXLastCtrlId=0;this.Events={e12072_client:["ENTER",true],
+e13072_client:["CANCEL",true]};this.EvtParms.REFRESH=[[],[]];this.InitStandaloneVars()});gx.createParentObj(ww_inicio);

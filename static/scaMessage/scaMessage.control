@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Version>1.2.1</Version>
+	<IncludeInControlInfo>false</IncludeInControlInfo>
+	<SupportFiles>
+		<Directory>resources/css/images</Directory>
+	</SupportFiles>
+	<RuntimeRender>scaMessageRender.js</RuntimeRender>
+	<HeightPropertyName>Height</HeightPropertyName>
+	<WidthPropertyName>Width</WidthPropertyName>
+	<ResizeSupported>true</ResizeSupported>
+	<ObjClass>scaMessage</ObjClass>
+	<Description>sca.Message</Description>
+	<Id>00000000-0000-0000-0000-000000000000</Id>
+	<Name>scaMessage</Name>
+	<ShowMethod>show</ShowMethod>
+	<ReferencedFiles>
+		<File>resources/css/jquery-ui.css</File>
+		<File>resources/css/jquery.pnotify.default.css</File>
+		<File>resources/css/bootstrap-alert.css</File>
+		<SharedFile>jqueryui/jquery-ui-1.9.1.js</SharedFile>
+		<File>resources/js/jquery.pnotify.min.js</File>
+		<File>resources/js/classie.js</File>
+		<File>resources/css/nifty-default.css</File>
+		<File>resources/css/nifty-component.css</File>
+	</ReferencedFiles>
+	<Constructor>
+		<Parameters />
+		<Name>scaMessage</Name>
+	</Constructor>
+	<PropertiesDefinition>design/scaMessageProperties.xml</PropertiesDefinition>
+	<DesignRender>design/scaMessageRender.xsl</DesignRender>
+	<ToolboxIcon>design/message.ico</ToolboxIcon>
+	<ControlType />
+	<Categories>
+		<Category>Simplifica Software</Category>
+	</Categories>
+	<Events />
+	<Actions />
+	<Methods />
+	<IsPublic>true</IsPublic>
+</ControlDefinition>

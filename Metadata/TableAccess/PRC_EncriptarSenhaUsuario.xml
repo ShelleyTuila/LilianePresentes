@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="16a899ad-52dd-4fa8-bb68-1b81fcf7a67b">
+  <Table name="USUARIO" />
+  <Table name="PARAMETRIZACAO" />
+</Dependencies>

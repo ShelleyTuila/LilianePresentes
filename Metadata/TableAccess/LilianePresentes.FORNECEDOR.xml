@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="be5c12e8-414a-4280-bb9a-4166455a38ed">
+  <Table name="FORNECEDOR" />
+  <Table name="FORNECEDORCONTATO" />
+  <Table name="CIDADE" />
+  <Table name="TRANSPORTADORA" />
+  <Table name="PRODUTO" />
+  <Table name="PARAMETRIZACAO" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bb804aa4-031a-410a-b99a-bd38eff935c3">
+  <Table name="TRANSPORTADORA" />
+  <Table name="TRANSPORTADORACONTATO" />
+</Dependencies>

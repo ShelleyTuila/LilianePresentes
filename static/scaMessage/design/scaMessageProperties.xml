@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Properties.xslt"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="scaMessage">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Children>
+        <Prop>
+          <Id>Width</Id>
+          <Name>Width</Name>
+          <Type>Text</Type>
+          <Default>312</Default>
+        </Prop>
+        <Prop>
+          <Id>Height</Id>
+          <Name>Height</Name>
+          <Type>Text</Type>
+          <Default>62</Default>
+        </Prop>
+        <Prop>
+          <Id>MessageType</Id>
+          <Name>MessageType</Name>
+          <Type>Combo</Type>
+          <Default>niftymodal</Default>
+          <Metadata />
+          <Values>
+            <Value id="pinesnotify" desc="Pines Notify" />
+			<Value id="bootstrap" desc="Pines Notify with Bootstrap" />
+			<Value id="niftymodal" desc="Nifty Modal" />
+            <Value id="dialog" desc="Dialog" />
+			<Value id="alert" desc="Alert" />
+          </Values>
+        </Prop>
+        <Prop>
+          <Id>AnimationType</Id>
+          <Name>AnimationType</Name>
+          <Type>Combo</Type>
+          <Default>fade</Default>
+          <Metadata />
+          <Values>
+            <!--<Value id="show" desc="Show" />-->
+			<Value id="fade" desc="fade" />
+			<Value id="slide" desc="slide" />
+			<Value id="none" desc="none" />
+          </Values>
+        </Prop>
+		<Group>
+			<Name>NiftyModalSettings</Name>
+			 <Children>
+				<Prop>
+					<Id>NiftyAnimationType</Id>
+					<Name>NiftyAnimationType</Name>
+					<Type>Combo</Type>
+					<Default>md-effect-1</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+					<Values>
+						<Value id="md-effect-1" desc="fade" />
+						<Value id="md-effect-2" desc="slide" />
+						<Value id="md-effect-3" desc="slideBottom" />
+						<Value id="md-effect-4" desc="newspaper" />
+						<Value id="md-effect-5" desc="fall" />
+						<Value id="md-effect-6" desc="stickyUp" />
+						<Value id="md-effect-7" desc="flipHorizontal" />
+						<Value id="md-effect-8" desc="flipVertical" />
+						<Value id="md-effect-9" desc="sign" />
+						<Value id="md-effect-9" desc="scaled" />
+					</Values>
+				</Prop>
+				<Prop>
+					<Id>NiftyDefaultMessageTitle</Id>
+					<Name>NiftyDefaultMessageTitle</Name>
+					<Type>Text</Type>
+					<Default>Message Title</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+				</Prop>
+				<Prop>
+					<Id>NiftyMessageTitleTag</Id>
+					<Name>NiftyMessageTitleTag</Name>
+					<Type>Text</Type>
+					<Default>#</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+				</Prop>
+				<Prop>
+					<Id>NiftyButtonText</Id>
+					<Name>NiftyButtonText</Name>
+					<Type>Text</Type>
+					<Default>Close me!</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+				</Prop>
+				<Group>
+					<Name>NiftyCssSettings</Name>
+					   <Children>
+						<Prop>
+							<Id>NiftyMessageBackgroundColor</Id>
+							<Name>NiftyMessageBackgroundColor</Name>
+							<Type>Color</Type>
+							<Default>209,91,71</Default>
+							<Metadata />
+						</Prop>
+						<Prop>
+							<Id>NiftyButtonColor</Id>
+							<Name>NiftyButtonColor</Name>
+							<Type>Color</Type>
+							<Default>165, 40, 27</Default>
+							<Metadata />
+						</Prop>
+						<Prop>
+							<Id>NiftyButtonHoverColor</Id>
+							<Name>NiftyButtonHoverColor</Name>
+							<Type>Color</Type>
+							<Default>192, 57, 43</Default>
+							<Metadata />
+						</Prop>
+						<Prop>
+							<Id>NiftyMessageTextColor</Id>
+							<Name>NiftyMessageTextColor</Name>
+							<Type>Color</Type>
+							<Default>255, 255, 255</Default>
+							<Metadata />
+						</Prop>
+						<Prop>
+							<Id>NiftyMessageFontFamily</Id>
+							<Name>NiftyMessageFontFamily</Name>
+							<Type>Combo</Type>
+							<Default>Verdana, Arial</Default>
+							<Values>
+								<Value id="Verdana, Arial" desc="Verdana, Arial" />
+								<Value id="Arial, Helvetica, sans-serif" desc="Arial, Helvetica, sans-serif" />
+								<Value id="'Arial Black', Gadget, sans-serif" desc="'Arial Black', Gadget, sans-serif" />
+								<Value id="'Bookman Old Style', serif" desc="'Bookman Old Style', serif" />
+								<Value id="'Comic Sans MS', cursive" desc="'Comic Sans MS', cursive" />
+								<Value id="Courier, monospace" desc="Courier, monospace" />
+								<Value id="'Courier New', Courier, monospace" desc="'Courier New', Courier, monospace" />
+								<Value id="Garamond, serif" desc="Garamond, serif" />
+								<Value id="Georgia, serif" desc="Georgia, serif" />
+								<Value id="Impact, Charcoal, sans-serif" desc="Impact, Charcoal, sans-serif" />
+								<Value id="'Lucida Console', Monaco, monospace" desc="'Lucida Console', Monaco, monospace" />
+								<Value id="'Lucida Sans Unicode', 'Lucida Grande', sans-serif" desc="'Lucida Sans Unicode', 'Lucida Grande', sans-serif" />
+								<Value id="'MS Sans Serif', Geneva, sans-serif" desc="'MS Sans Serif', Geneva, sans-serif" />
+								<Value id="'MS Serif', 'New York', sans-serif" desc="'MS Serif', 'New York', sans-serif" />
+								<Value id="'Palatino Linotype', 'Book Antiqua', Palatino, serif" desc="'Palatino Linotype', 'Book Antiqua', Palatino, serif" />
+								<Value id="Symbol, sans-serif" desc="Symbol, sans-serif" />
+								<Value id="Tahoma, Geneva, sans-serif" desc="Tahoma, Geneva, sans-serif" />
+								<Value id="'Times New Roman', Times, serif" desc="'Times New Roman', Times, serif" />
+								<Value id="'Trebuchet MS', Helvetica, sans-serif" desc="'Trebuchet MS', Helvetica, sans-serif" />
+								<Value id="Verdana, Geneva, sans-serif" desc="Verdana, Geneva, sans-serif" />
+								<Value id="Webdings, sans-serif" desc="Webdings, sans-serif" />
+								<Value id="Wingdings, 'Zapf Dingbats', sans-serif" desc="Wingdings, 'Zapf Dingbats', sans-serif" />
+							</Values>
+							<Metadata>
+								<Value name="FlagScope">DesignTime</Value>
+							</Metadata>
+						</Prop>
+					</Children>
+				</Group>
+			 </Children>
+		</Group>
+		<Group>
+			<Name>PinesNotifySettings</Name>
+			<Children>
+				<Prop>
+					<Id>AnimationSpeed</Id>
+					<Name>AnimationSpeed</Name>
+					<Type>Integer</Type>
+					<Default>600</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+				</Prop>
+				<Prop>
+					<Id>DisplayHistoryMenu</Id>
+					<Name>DisplayHistoryMenu</Name>
+					<Type>Boolean</Type>
+					<Default>true</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+				</Prop>
+				<Prop>
+					<Id>NextMessagePosition</Id>
+					<Name>NextMessagePosition</Name>
+					<Type>Combo</Type>
+					<Default>down</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+					<Values>
+						<Value id="down" desc="down" />
+						<Value id="up" desc="up" />
+						<Value id="right" desc="right" />
+						<Value id="left" desc="left" />
+					</Values>
+				</Prop>
+			</Children>
+		</Group>
+		<Group>
+			<Name>DialogSettings</Name>
+			 <Children>
+				<Prop>
+					<Id>DialogDefaultMessageTitle</Id>
+					<Name>DialogDefaultMessageTitle</Name>
+					<Type>Text</Type>
+					<Default>Message Title</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+				</Prop>
+				<Prop>
+					<Id>DialogMessageTitleTag</Id>
+					<Name>DialogMessageTitleTag</Name>
+					<Type>Text</Type>
+					<Default>#T#</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+				</Prop>
+			 </Children>
+		</Group>
+		<Prop>
+          <Id>DelayUntilClose</Id>
+          <Name>DelayUntilClose</Name>
+          <Type>Integer</Type>
+          <Default>4000</Default>
+          <Metadata>
+			<Value name="FlagScope">DesignTime</Value>
+		  </Metadata>
+        </Prop>
+		<Prop>
+          <Id>AutoClose</Id>
+          <Name>AutoClose</Name>
+          <Type>Boolean</Type>
+          <Default>true</Default>
+          <Metadata>
+			<Value name="FlagScope">DesignTime</Value>
+		  </Metadata>
+        </Prop>
+		<Prop>
+          <Id>ShowCloseButton</Id>
+          <Name>ShowCloseButton</Name>
+          <Type>Boolean</Type>
+          <Default>true</Default>
+          <Metadata>
+			<Value name="FlagScope">DesignTime</Value>
+		  </Metadata>
+        </Prop>
+		<Prop>
+          <Id>StartPosition</Id>
+          <Name>StartPosition</Name>
+          <Type>Combo</Type>
+          <Default>TopRight</Default>
+          <Metadata>
+			<Value name="FlagScope">DesignTime</Value>
+		  </Metadata>
+		  <Values>
+            <Value id="TopRight" desc="TopRight" />
+			<Value id="TopCenter" desc="TopCenter" />
+            <Value id="TopLeft" desc="TopLeft" />
+            <Value id="BottomRight" desc="BottomRight" />
+			<Value id="BottomCenter" desc="BottomCenter" />
+			<Value id="BottomLeft" desc="BottomLeft" />
+			<Value id="DialogCenter" desc="DialogCenter" />
+          </Values>
+        </Prop>
+      </Children>
+    </Group>
+  </Object>
+</Content>

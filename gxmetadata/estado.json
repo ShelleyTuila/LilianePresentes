@@ -1,0 +1,4 @@
+{
+
+"GxObject":{"ObjectType":"BusinessComponent","Name":"ESTADO","idConnectivitySupport":"idInherit","Structure":{"Levels":[{"Name":"Estado","ParentLevel":"","LevelName":"ESTADO","Description":"ESTADO","Attributes":[{"Name":"ESTADO_UF","Caption":"UF","default":"","IsKey":"true","ReadOnly":"false","AttributeType":"svchar","Description":"UF","Length":"2","Decimals":"0","Signed":"false","AllowDBNulls":"false","Domain":"UF","InternalName":"ESTADO_UF","InputPicture":"","Type":"xs:string"},{"Name":"ESTADO_DESCRICAO","Caption":"Estado","default":"","IsKey":"false","ReadOnly":"false","AttributeType":"svchar","Description":"Estado","Length":"100","Decimals":"0","Signed":"false","AllowDBNulls":"true","Domain":"Nome","InternalName":"ESTADO_DESCRICAO","DescriptionAtt":"true","InputPicture":"","Type":"xs:string"}]}]},"Relations":{"ManyToOne":{"references":[]}}}
+}
